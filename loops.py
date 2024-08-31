@@ -17,3 +17,18 @@ while i <= 5:
 print("\n range loop")
 for i in range(1,11):
     print(i,end=' ')
+    
+for i in range(5):
+    print(i)
+else:
+    print("sorry bro out of the loop")
+    
+    
+for i in range(6):
+    print(i)
+    if i == 4:
+        break
+else:
+    print("this is will nt print")
+    
+#same with the while loop
